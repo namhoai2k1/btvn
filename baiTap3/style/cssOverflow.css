@@ -1,0 +1,49 @@
+body {
+background-color: palegreen;
+
+}
+
+.overflow {
+    float: right;
+}
+#overflow1 {
+    background-color: steelblue;
+    border: 3px double orangered;
+
+    width: 200px;
+    height: 200px;
+
+    overflow: visible;
+    float: right;
+}
+
+#overflow2 {
+    background-color: steelblue;
+    border: 3px double orangered;
+
+    width: 200px;
+    height: 200px;
+
+    overflow: hidden;
+}
+
+#overflow3 {
+    background-color: steelblue;
+    border: 3px double orangered;
+
+    width: 200px;
+    height: 200px;
+
+    overflow: auto;
+}
+
+#overflow4 {
+    background-color: steelblue;
+    border: 3px double orangered;
+
+    width: 200px;
+    height: 200px;
+
+    overflow: scroll;
+}
+

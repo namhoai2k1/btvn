@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body {
+    font-size: 20px;
+}
+/* end body */
+
+.site-wrap {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.header {
+    height: 250px;
+    background-image: url(./tong-hop-hinh-nen-background-vector-designer-dep-do-phan-giai-fhd-2k-4k-moi-nhat-6\ \(1\).jpg);
+    color: wheat;
+
+    padding: 20px;
+
+    box-sizing: border-box;
+}
+
+.nav ul {
+    text-align: center;
+    background-color: steelblue;
+
+    list-style: none;
+
+    margin: 0;
+    padding: 0 10px;
+
+    box-sizing: border-box;  
+}
+
+.nav ul > li {
+    float: left;
+    width: 150px;
+    padding: 10px 0;
+    background-color: steelblue;
+}
+
+.nav ul > li > a {
+    
+    text-decoration: none;
+    color: tomato;
+}
+
+.nav ul > li > a:hover {
+    color: burlywood;
+}
+/* end bìa và điều hướng */
+
+.content {
+    width: 100%;
+}
+
+.sidebar-left {
+    width: 25%;
+    height: 750px;
+    background-color: palevioletred;
+    color: white; 
+
+    float: left;   
+
+    padding: 20px;
+
+    box-sizing: border-box;
+}
+
+.sidebar-right {
+    width: 25%;
+    height: 750px;
+    background-color: palevioletred;
+    color: white;  
+
+    float: right; 
+
+    padding: 20px;
+
+    box-sizing: border-box;
+}
+
+.main-content {
+    width: 50%;
+    height: 750px;
+    background-color: tomato;
+
+    float: left;
+
+    padding: 20px;
+
+    box-sizing: border-box;
+}
+/* end main */
+.footer {
+    height: 250px;
+    background-color: paleturquoise;
+    color: slategrey;
+
+    padding: 20px;
+
+    box-sizing: border-box; 
+}
