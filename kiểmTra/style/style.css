@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body {
+    background-color: silver;
+    width: 100%;
+}
+
+header {
+    height: 150px;
+    background-color: slategray;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#banner, #logo {
+    height: 150px;
+}
+
+form div {
+    margin-bottom: 20px;
+}
+section h3 {
+    text-align: center;
+}
+
+form {
+    font-size: 20px;
+}
+
+form input {
+    height: 40px;
+}
+
+input#full_name, input#address, input#email, textarea#thongTin {
+    width: 80%;
+    float: right;
+}
+
+input#man, select#vehicle, input#chonHalong {
+    margin-left: 15%;
+}
+
+form input#man, input#woman,input#chonHalong, input#chonSapa,input#chonDanang  {
+    height: 20px;
+}
+
+
+
+
+
